@@ -1,0 +1,147 @@
+body {
+    background-image: url('../image/cloud.png');
+    opacity: 80%;
+    background-repeat: repeat-x;
+
+}
+
+
+@media screen and (min-width: 200px) {
+    
+    
+    .solutions img {
+        margin-left: 0px !important;
+        width: 80% !important;
+    }
+    .btn-warning {
+        margin-right: 0px !important;
+    }
+    .zaanth-solutions-button {
+        margin-left: 0px !important;
+    }
+    .solution-services {
+        margin-left: 0px !important;
+    }
+    .technologies img {
+        margin-right: 0px !important;
+        width: 80% !important;
+    }
+    .btn-primary {
+        margin-right: 0px !important;
+    }
+    .tech-services {
+        margin-right: 0px !important;
+    }
+    
+}
+
+.logo-main {
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 130px;
+    height: auto;
+}
+
+.main-contents {
+    text-align: center;
+}
+
+
+.main-contents span{
+    font-weight: bold;
+}
+
+
+
+.solutions img {
+    margin-left: 100px;
+    width: 74%;
+    height: auto;
+
+}
+
+.solutions img:hover {
+    opacity: 50%;
+}
+
+.btn-warning {
+    margin-left: 100px;
+    background-color: #75170f !important;
+    border: none !important;
+    
+}
+
+.zaanth-solutions-button {
+    margin-left: 100px;
+    
+}
+
+.zaanth-solutions-button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.zaanth-solutions-button a:hover {
+    color: #f49a05;
+    
+}
+
+.solution-services {
+    margin-left: 100px;
+}
+
+
+.technologies img {
+    margin-right: 100px;
+    width: 74%;
+    height: auto;
+
+}
+
+.technologies img:hover {
+    opacity: 50%;
+
+}
+
+.btn-primary {
+    margin-right: 100px;
+    background-color: #ee9a13 !important;
+    border: solid black 1px !important;
+    border: none !important;
+    
+}
+
+.zaanth-tech-button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+    
+}
+
+.zaanth-tech-button a:hover {
+    color: #75170f
+    
+    
+}
+
+.tech-services {
+    margin-right: 100px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color:black;
+
+}
+
+.footer span {
+    color: white;
+    
+    
+}
