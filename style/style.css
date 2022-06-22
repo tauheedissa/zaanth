@@ -10,7 +10,7 @@ body {
     
     .solutions img {
         margin-left: 0px !important;
-        width: 100% !important;
+        width: 500px !important;
     }
     .btn-warning {
         margin-right: 0px !important;
@@ -23,7 +23,7 @@ body {
     }
     .technologies img {
         margin-right: 0px !important;
-        width: 100% !important;
+        width: 500px !important;
     }
     .btn-primary {
         margin-right: 0px !important;
