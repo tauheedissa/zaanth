@@ -34,35 +34,6 @@ body {
     
 }
 
-@media (min-width: 100px) and (max-width: 991px) {
-    
-    
-    .solutions img {
-        margin-left: 0px !important;
-        width: 100% !important;
-    }
-    .btn-warning {
-        margin-right: 0px !important;
-    }
-    .zaanth-solutions-button {
-        margin-left: 0px !important;
-    }
-    .solution-services {
-        margin-left: 0px !important;
-    }
-    .technologies img {
-        margin-right: 0px !important;
-        width: 100% !important;
-    }
-    .btn-primary {
-        margin-right: 0px !important;
-    }
-    .tech-services {
-        margin-right: 0px !important;
-    }
-    
-}
-
 .logo-main {
     text-align: center;
 }
