@@ -132,19 +132,12 @@ and (max-device-width : 2000px) {
         text-align: center;
     }
     
-    .left-line {
-        background-color: black !important;
-    }
     .solutions img {
         /* margin-left: 20%; */
         margin-left: 0% !important;
         width: 300px !important;
         height: auto !important;
     
-    }
-
-    .right-line {
-        background-color: purple !important;
     }
 
     .technologies img {
@@ -176,19 +169,12 @@ and (max-device-width : 2000px) {
         text-align: center;
     }
     
-    .left-line {
-        background-color: green !important;
-    }
-    .solutions img {
+   .solutions img {
         /* margin-left: 20%; */
         margin-left: 0% !important;
         width: 400px !important;
         height: auto !important;
     
-    }
-
-    .right-line {
-        background-color: pink !important;
     }
 
     .technologies img {
