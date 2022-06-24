@@ -5,35 +5,6 @@ body {
 
 }
 
-@media (min-width: 320px) and (max-width: 575px) {
-    
-    
-    .solutions img {
-        margin-left: 0px !important;
-        width: 65% !important;
-    }
-    .btn-warning {
-        margin-right: 0px !important;
-    }
-    .zaanth-solutions-button {
-        margin-left: 0px !important;
-    }
-    .solution-services {
-        margin-left: 0px !important;
-    }
-    .technologies img {
-        margin-right: 0px !important;
-        width: 65% !important;
-    }
-    .btn-primary {
-        margin-right: 0px !important;
-    }
-    .tech-services {
-        margin-right: 0px !important;
-    }
-    
-}
-
 .logo-main {
     text-align: center;
 }
@@ -47,22 +18,32 @@ body {
     text-align: center;
 }
 
-
-.main-contents span{
-    font-weight: bold;
-}
-
-
-
-.solutions img {
-    margin-left: 100px;
-    width: 74%;
-    height: auto;
+ 
+.technologies img:hover {
+    opacity: 50%;
 
 }
 
 .solutions img:hover {
     opacity: 50%;
+}
+
+
+/* Small screens, laptops */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 2000px) {
+
+.main-contents span{
+    font-weight: bold;
+}
+
+.solutions img {
+    margin-left: 20%;
+    width: 77%;
+    height: auto;
+
 }
 
 .btn-warning {
@@ -95,16 +76,13 @@ body {
 
 
 .technologies img {
-    margin-right: 100px;
-    width: 74%;
+    margin-right: 20%;
+    width: 77%;
     height: auto;
 
 }
 
-.technologies img:hover {
-    opacity: 50%;
 
-}
 
 .btn-primary {
     margin-right: 100px;
@@ -131,8 +109,6 @@ body {
 .tech-services {
     margin-right: 100px;
 }
-
-
 .footer {
     text-align: center;
     background-color:black;
@@ -143,4 +119,107 @@ body {
     color: white;
     
     
+}
+
+}
+
+
+/* Mobile Devices */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .logo-main {
+        text-align: center;
+    }
+    
+    .left-line {
+        background-color: black !important;
+    }
+    .solutions img {
+        /* margin-left: 20%; */
+        margin-left: 0% !important;
+        width: 300px !important;
+        height: auto !important;
+    
+    }
+
+    .right-line {
+        background-color: purple !important;
+    }
+
+    .technologies img {
+        /* margin-left: 0%; */
+        margin-right: 0% !important;
+        width: 300px !important;
+        height: auto !important;
+    
+    }
+
+    .btn-primary {
+        margin-right: 0% !important;
+        
+        
+    }
+
+    .btn-waring {
+        margin-left: 0% !important;
+        
+        
+    }
+}
+
+/* Ipads and Tablets */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    
+    .logo-main {
+        text-align: center;
+    }
+    
+    .left-line {
+        background-color: green !important;
+    }
+    .solutions img {
+        /* margin-left: 20%; */
+        margin-left: 0% !important;
+        width: 400px !important;
+        height: auto !important;
+    
+    }
+
+    .right-line {
+        background-color: pink !important;
+    }
+
+    .technologies img {
+        /* margin-left: 0%; */
+        margin-right: 0% !important;
+        width: 400px !important;
+        height: auto !important;
+    
+    }
+
+    .btn-primary {
+        margin-right: 0% !important;
+        
+        
+    }
+
+    .btn-warning {
+        margin-left: 0% !important;
+        
+        
+    }
+
+    .solution-services{
+        margin-left: 0% !important;
+        
+        
+    }
+
+    .tech-services{
+        margin-right: 0% !important;
+        
+        
+    }
 }
